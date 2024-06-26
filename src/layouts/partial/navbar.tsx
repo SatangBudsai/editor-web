@@ -32,23 +32,6 @@ const Navbar = (props: Props) => {
     }
   }, [NProgress.status])
 
-  const workspaces = [
-    {
-      value: '0',
-      label: 'เลือกพอร์ต',
-      items: [
-        {
-          value: '1',
-          label: 'พอร์ตลงทุนหลัก'
-        },
-        {
-          value: '2',
-          label: 'พอร์ตลงทุนรอง'
-        }
-      ]
-    }
-  ]
-
   return (
     <Fragment>
       <Drawer
@@ -91,7 +74,7 @@ const Navbar = (props: Props) => {
               </Tooltip>
             )}
             <div className='flex items-center gap-2'>
-              <Icon icon='solar:code-square-bold' width={35} className='text-primary' />
+              <Icon icon='solar:notebook-linear' width={35} className='text-primary' />
               {!isMobile && (
                 <p className='text-lg font-bold uppercase text-primary'>{process.env.NEXT_PUBLIC_PROJECT_NAME}</p>
               )}
