@@ -1,13 +1,18 @@
-import { Fragment, ReactElement } from 'react'
+import { Fragment, ReactElement, useState } from 'react'
 import MainLayout from '@/layouts/main-layout'
 import useLoaderGlobal from '@/hooks/useLoaderGlobal'
+import EditorBlock from '@/components/EditorBlock'
 
 type Props = {}
 
 const Home = (props: Props) => {
   const loaderGlobal = useLoaderGlobal()
-
-  return <Fragment></Fragment>
+  const [content, setContent] = useState()
+  return (
+    <Fragment>
+      <EditorBlock content={content} setContent={setContent} id={'editor'} editable={true} />
+    </Fragment>
+  )
 }
 
 export default Home

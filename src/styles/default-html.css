@@ -1,0 +1,584 @@
+.default-html a:link {
+  color: initial;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+.default-html a {
+  cursor: pointer;
+}
+
+.default-html a:visited {
+  color: initial;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+.default-html a:link:active {
+  color: initial;
+}
+
+.default-html a:visited:active {
+  color: initial;
+}
+
+.default-html abbr {
+  /* No default styling */
+}
+
+.default-html address {
+  display: block;
+  font-style: italic;
+}
+
+.default-html area {
+  display: none;
+}
+
+.default-html article {
+  display: block;
+}
+
+.default-html aside {
+  display: block;
+}
+
+.default-html audio {
+  /* No default styling */
+}
+
+.default-html b {
+  font-weight: bold;
+}
+
+.default-html base {
+  /* No default styling */
+}
+
+.default-html bdi {
+  /* No default styling */
+}
+
+.default-html bdo {
+  unicode-bidi: bidi-override;
+}
+
+.default-html blockquote {
+  display: block;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.default-html body {
+  display: block;
+  margin: 8px;
+}
+
+.default-html body:focus {
+  outline: none;
+}
+
+.default-html br {
+  /* No default styling */
+}
+
+.default-html button {
+  /* No default styling */
+}
+
+.default-html canvas {
+  /* No default styling */
+}
+
+.default-html caption {
+  display: table-caption;
+  text-align: center;
+}
+
+.default-html cite {
+  font-style: italic;
+}
+
+.default-html code {
+  font-family: monospace;
+}
+
+.default-html col {
+  display: table-column;
+}
+
+.default-html colgroup {
+  display: table-column-group;
+}
+
+.default-html datalist {
+  display: none;
+}
+
+.default-html dd {
+  display: block;
+  margin-left: 40px;
+}
+
+.default-html del {
+  text-decoration: line-through;
+}
+
+.default-html details {
+  display: block;
+}
+
+.default-html dfn {
+  font-style: italic;
+}
+
+.default-html dialog {
+  /* No default styling */
+}
+
+.default-html div {
+  display: block;
+}
+
+.default-html dl {
+  display: block;
+
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.default-html dt {
+  display: block;
+}
+
+.default-html em {
+  font-style: italic;
+}
+
+.default-html embed:focus {
+  outline: none;
+}
+
+.default-html fieldset {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove initial;
+}
+
+.default-html figcaption {
+  display: block;
+}
+
+.default-html figure {
+  display: block;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.default-html footer {
+  display: block;
+}
+
+.default-html form {
+  display: block;
+  margin-top: 0em;
+}
+
+.default-html h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.default-html h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.default-html h3 {
+  display: block;
+  font-size: 1.17em;
+
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.default-html h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.default-html h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.default-html h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.default-html head {
+  display: none;
+}
+
+.default-html header {
+  display: block;
+}
+
+.default-html hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.default-html html {
+  display: block;
+}
+
+.default-html html:focus {
+  outline: none;
+}
+
+.default-html i {
+  font-style: italic;
+}
+
+.default-html iframe:focus {
+  outline: none;
+}
+
+.default-html iframe[seamless] {
+  display: block;
+}
+
+.default-html img {
+  display: inline-block;
+}
+
+.default-html input {
+  /* No default styling */
+}
+
+.default-html ins {
+  text-decoration: underline;
+}
+
+.default-html kbd {
+  font-family: monospace;
+}
+
+.default-html label {
+  cursor: default;
+}
+
+.default-html legend {
+  display: block;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: none;
+}
+
+.default-html li {
+  display: list-item;
+}
+
+.default-html link {
+  display: none;
+}
+
+.default-html main {
+  /* No default styling */
+}
+
+.default-html map {
+  display: inline;
+}
+
+.default-html mark {
+  background-color: yellow;
+  color: black;
+}
+
+.default-html menu {
+  display: block;
+  list-style-type: disc;
+
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.default-html menuitem {
+  /* No default styling */
+}
+
+.default-html meta {
+  /* No default styling */
+}
+
+.default-html meter {
+  /* No default styling */
+}
+
+.default-html nav {
+  display: block;
+}
+
+.default-html noscript {
+  /* No default styling */
+}
+
+.default-html object:focus {
+  outline: none;
+}
+
+.default-html ol {
+  display: block;
+  list-style-type: decimal;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.default-html optgroup {
+  /* No default styling */
+}
+
+.default-html option {
+  /* No default styling */
+}
+
+.default-html output {
+  display: inline;
+}
+
+.default-html p {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.default-html param {
+  display: none;
+}
+
+.default-html picture {
+  /* No default styling */
+}
+
+.default-html pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+.default-html progress {
+  /* No default styling */
+}
+
+.default-html q {
+  display: inline;
+}
+
+.default-html q::before {
+  content: open-quote;
+}
+
+.default-html q::after {
+  content: close-quote;
+}
+
+.default-html rp {
+  /* No default styling */
+}
+
+.default-html rt {
+  line-height: normal;
+}
+
+.default-html ruby {
+  /* No default styling */
+}
+
+.default-html s {
+  text-decoration: line-through;
+}
+
+.default-html samp {
+  font-family: monospace;
+}
+
+.default-html script {
+  display: none;
+}
+
+.default-html section {
+  display: block;
+}
+
+.default-html select {
+  /* No default styling */
+}
+
+.default-html small {
+  font-size: smaller;
+}
+
+.default-html source {
+  /* No default styling */
+}
+
+.default-html span {
+  /* No default styling */
+}
+
+.default-html strike {
+  text-decoration: line-through;
+}
+
+.default-html strong {
+  font-weight: bold;
+}
+
+.default-html style {
+  display: none;
+}
+
+.default-html sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.default-html summary {
+  display: block;
+}
+
+.default-html sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.default-html table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+.default-html tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.default-html td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.default-html template {
+  /* No default styling */
+}
+
+.default-html textarea {
+  /* No default styling */
+}
+
+.default-html tfoot {
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.default-html th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+.default-html thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.default-html time {
+  /* No default styling */
+}
+
+.default-html title {
+  display: none;
+}
+
+.default-html tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.default-html track {
+  /* No default styling */
+}
+
+.default-html u {
+  text-decoration: underline;
+}
+
+.default-html ul {
+  display: block;
+  list-style-type: disc;
+
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.default-html var {
+  font-style: italic;
+}
+
+.default-html video {
+  /* No default styling */
+}
+
+.default-html wbr {
+  /* No default styling */
+}

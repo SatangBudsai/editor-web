@@ -1,6 +1,7 @@
 @import url(nprogress.css);
 @import url(scrollbar.css);
 @import url(animation.css);
+@import url(default-html.css);
 
 @tailwind base;
 @tailwind components;
